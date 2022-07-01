@@ -11,7 +11,38 @@ body {
     margin: 20px;
     text-align: center;
 }
-
+.card img{
+    height: 150px;
+    width: 100px;
+    display: none;
+    cursor: pointer;
+}
+.foo{
+    background: red;
+    height: 150px;
+    width: 100px;
+    margin: 20px;
+    text-align: center;
+}
+.foo img{
+    height: 150px;
+    width: 100px;
+    display: block;
+    cursor: pointer;
+}
+.checked{
+    background: red;
+    height: 150px;
+    width: 100px;
+    margin: 20px;
+    text-align: center;
+}
+.checked img{
+    height: 150px;
+    width: 100px;
+    display: block;
+    cursor: pointer;
+}
 .container {
     width: 600px;
     display: flex;
